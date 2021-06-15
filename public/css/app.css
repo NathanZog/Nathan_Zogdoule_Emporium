@@ -309,5 +309,70 @@ header {
     font-size: 150%;
   }
 }
+.section3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.div1sect3 {
+  border: black solid 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.titreSect3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.divGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid black 1px;
+}
+
+.divRangee {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.divCarree {
+  display: block;
+  border: solid red 1px;
+  height: 35vh;
+  width: 45vh;
+}
+
+.divImgSect31 {
+  border: black solid 1px;
+  height: 70%;
+  background-image: url("../img/products_mini/product-luxry-sofa.jpg");
+  background-size: cover;
+}
+
+.divImgSect32 {
+  border: black solid 1px;
+  height: 70%;
+  background-image: url("../img/products_mini/product-gloves.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.divImgSect33 {
+  border: black solid 1px;
+  height: 70%;
+  background-image: url("../img/products_mini/product-luxry-sofa.jpg");
+  background-size: cover;
+}
+
+.divTxtSect3 {
+  height: 30%;
+  border: solid green 1px;
+}
 
 /*# sourceMappingURL=app.css.map */
