@@ -1,0 +1,107 @@
+.section1{
+    width: 100%;
+    height: 75vh;
+    margin-top: 50px;
+    display: flex;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+}
+.sect1G{
+    width: 33%;
+    margin-top: 5%;
+}
+.sect1D{
+    width: 33%;
+    background-size: cover;
+}
+.imgSect1{
+    height: 100%;
+    margin-left: 5%;
+}
+.h2Sect1{
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-size: 60px;
+    margin: 0;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.h1Sect1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    margin: 0;
+}
+.pSect1{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+.btnSect1{
+    width: 33%;
+    height: 60px;
+    background-color: rgba(255, 0, 0, 0.623);
+    border-radius: 5em/5em;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+
+
+//  partie querries
+
+@media (min-width : 300px)and (max-width: 641px){
+    .section1{
+        height: 50vh;
+    }
+    .sect1G{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .sect1D{
+        width: 0%;
+    }
+    .h2Sect1{
+        font-size: 20px;
+    }
+    .h1Sect1{
+        font-size: 25px;
+    }
+    .pSect1{
+        font-size: 15px;
+    }
+    .imgSect1{
+        display: none;
+    }
+}
+@media (min-width : 641px)and (max-width:1007px){
+    .h2Sect1{
+        font-size: 30px;
+    }
+    .h1Sect1{
+        font-size: 35px;
+    }
+    .pSect1{
+        font-size: 20px;
+    }
+    .sect1D{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+    }
+    .imgSect1{
+        height: 75%;
+    }
+}
+@media (min-width : 1007px){
+    .h2Sect1{
+        font-size: 33px;
+    }
+    .h1Sect1{
+        font-size: 38px;
+    }
+    .pSect1{
+        font-size: 23px;
+    }
+}
