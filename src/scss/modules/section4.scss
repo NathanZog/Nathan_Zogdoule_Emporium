@@ -1,0 +1,67 @@
+.section4{
+    margin-top: 100px;
+    height: 100vh;
+    background-image: url("../img/cta-bg.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titreSect4{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.btnSect4{
+    color: white;
+    background-color: rgba(223,67,64,255)
+    ;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+// partie querries 
+@media (min-width : 320px) and (max-width : 342px){
+    .titreSect4{
+        font-size: 15px;
+        text-align: center;
+    }
+    .btnSect4{
+        height: 22.5px;
+    }
+    .section4{
+        height: 50vh;
+    }
+}
+
+@media (min-width : 342px) and (max-width : 486px){
+    .titreSect4{
+        font-size: 17.5px;
+    }
+    .btnSect4{
+        height: 25px;
+    }
+    .section4{
+        height: 50vh;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 486px){
+    .titreSect4{
+        font-size: 17.5px;
+    }
+    .btnSect4{
+        height: 25px;
+    }
+}
+
+@media (min-width : 486px) and (max-width : 603px){
+    .titreSect4{
+        font-size: 25px;
+    }
+    .btnSect4{
+        height: 30px;
+    }
+}

@@ -4,7 +4,6 @@
     margin-top: 10%;
 }
 .div1sect3{
-    border: black solid 1px;
     display: flex;
     justify-content: center;
 }
@@ -15,44 +14,92 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid black 1px;
+    margin-top: 5%;
+    
+    
 }
 .divRangee{
     height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    width: 75%;
-}
-.divCarree{
-    display: block;
-    border: solid red 1px;
-    height: 35vh;
-    width: 45vh;
-}
-.divImgSect31{
-    border: black solid 1px;
-    height: 70%;
-    background-image: url("../img/products_mini/product-luxry-sofa.jpg");
-    background-size: cover;
-}
-.divImgSect32{
-    border: black solid 1px;
-    height: 70%;
-    background-image: url("../img/products_mini/product-gloves.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.divImgSect33{
-    border: black solid 1px;
-    height: 70%;
-    background-image: url("../img/products_mini/product-luxry-sofa.jpg");
-    background-size: cover;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-top: 50px;
 }
 
-.divTxtSect3{
-    height: 30%;
-    border: solid green 1px;
+.card{
+    border: none;
+}
+.carta-body{
+    display: flex;
+}
+.card-text{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-weight: bold;
+}
+.card-prize{
+    color: rgba(223,67,64,255);
+    text-align: center;
+    margin: 0;
+}
+.span-prize{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.divSale{
+    display: flex;
+    justify-content: center;
+}
+.sale{
+    height: 45px;
+    width: 45px;
+    background-color: rgba(223,67,64,255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.txt-sale{
+    font-size: 10px;
+}
+
+// partie querries 
+@media (min-width: 320px) and (max-width : 654px){
+    .divSale{
+        display: none;
+    }
+    .whole-text{
+        width: 100%;
+        text-align: center;
+    }
+    .card-text{
+        font-size: 8px;
+    }
+    .card-prize{
+        font-size: 10px;
+    }
+}
+
+
+
+@media (min-width: 654px) and (max-width : 1116px){
+    .divSale{
+        display: none;
+    }
+    .whole-text{
+        width: 100%;
+        text-align: center;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+    .card-prize{
+        font-size: 10px;
+    }
 }
 

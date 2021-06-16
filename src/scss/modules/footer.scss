@@ -1,0 +1,27 @@
+.upFooter{
+    height: 40vh;
+    background-color: rgb(52, 58, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divFooter{
+    height: 30vh;
+    width: 20%;
+    border: chartreuse solid 1px;
+}
+
+
+
+
+
+
+
+.downFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 7vh;
+    background-color: black;
+    color : rgb(125, 136, 146);
+}
