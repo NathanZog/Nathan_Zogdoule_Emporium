@@ -16893,6 +16893,7 @@ header {
   border-radius: 15%;
   border: none;
   outline: none;
+  background-color: white;
 }
 
 .white {
@@ -17433,7 +17434,6 @@ header {
   }
 }
 .upFooter {
-  height: 40vh;
   background-color: #343a40;
   display: flex;
   justify-content: center;
@@ -17441,9 +17441,67 @@ header {
 }
 
 .divFooter {
-  height: 30vh;
   width: 20%;
-  border: chartreuse solid 1px;
+  display: block;
+  padding-bottom: 10%;
+}
+
+.sameFooter {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.sameFooter2 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.txtUpFooter {
+  padding-right: 20px;
+  color: #7d8892;
+}
+
+.liLike {
+  margin-top: 3px;
+  color: white;
+  padding-left: 5px;
+}
+
+.divFooter2 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15%;
+}
+
+.divBtnFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-right: 40px;
+}
+
+.divBtnFooter2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding-right: 110px;
+}
+
+.btnFooter {
+  background-color: #343a40;
+  color: #7d8892;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  border-color: #7d8892;
+}
+
+.txtDFooter {
+  font-family: "Poppins", sans-serif;
 }
 
 .downFooter {
@@ -17453,6 +17511,22 @@ header {
   height: 7vh;
   background-color: black;
   color: #7d8892;
+}
+
+@media (min-width: 320px) and (max-width: 393px) {
+  .txtDFooter {
+    font-size: 10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 834px) {
+  .divFooter {
+    width: 50%;
+    text-align: center;
+  }
+
+  .divFooter2 {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
