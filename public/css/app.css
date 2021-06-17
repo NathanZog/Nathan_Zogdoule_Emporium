@@ -16852,6 +16852,16 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+header.scroll {
+  flex-direction: row;
+  justify-content: center;
 }
 
 #divTitre {
@@ -16859,12 +16869,13 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 25px;
 }
 
 #titre {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #nav {
@@ -16904,7 +16915,7 @@ header {
   background-color: black;
 }
 
-.connexion {
+#connexion {
   background-color: gray;
   color: white;
   height: 30px;
@@ -16925,6 +16936,7 @@ header {
   background-color: #F3F3F3;
   display: flex;
   justify-content: center;
+  margin-top: 190px;
 }
 
 .sect1G {
@@ -17181,6 +17193,7 @@ header {
   flex-direction: column;
   align-items: center;
   margin-top: 5%;
+  z-index: -1;
 }
 
 .divRangee {
@@ -17433,6 +17446,176 @@ header {
     width: 100%;
   }
 }
+.modal-container {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+}
+
+.modal {
+  background-color: #fff;
+  width: 800px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  height: 600px;
+  display: block !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-titre {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-close {
+  height: 40px;
+  width: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+
+.modal-buttons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.modalConnexion {
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.modalInscription {
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.modalInfo {
+  margin-top: 25px;
+  display: block;
+}
+
+.modalEmail {
+  font-weight: bold;
+  color: black;
+}
+
+.modalInput1 {
+  width: 100%;
+}
+
+.modalAdvertice {
+  margin: 0;
+  color: gray;
+}
+
+.modalPassword {
+  margin-top: 45px;
+  font-weight: bold;
+  color: black;
+}
+
+.cmo {
+  margin-top: 30px;
+}
+
+.divSubmit {
+  margin-top: 30px;
+}
+
+.submit {
+  color: white;
+  background-color: #008cff;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+}
+
+.modalLogos {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.fb {
+  font-size: 35px;
+  color: #008cff;
+}
+
+.insta {
+  font-size: 35px;
+  margin-left: 15px;
+}
+
+.snap {
+  font-size: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: rgba(255, 255, 0, 0.884);
+}
+
+.laptop {
+  font-size: 35px;
+}
+
+.modal-container2 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.modal2 {
+  background-color: #fff;
+  width: 800px;
+  max-width: 80%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  height: 100vh;
+  display: block !important;
+  top: 50%;
+  left: 50%;
+}
+
+.modalInfo2 {
+  margin-top: 25px;
+  display: block;
+}
+
+.divSubmit2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
 .upFooter {
   background-color: #343a40;
   display: flex;
