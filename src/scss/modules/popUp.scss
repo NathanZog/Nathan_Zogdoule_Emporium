@@ -8,6 +8,7 @@
     width: 100%;
     height: 100vh;
     opacity: 0;
+    z-index: -1;
 };
 
 
@@ -81,6 +82,9 @@
 .cmo{
     margin-top: 30px;
 }
+#checkbox{
+    display: block;
+}
 .divSubmit{
     margin-top: 30px;
 }
@@ -130,7 +134,8 @@
     height: 100vh;
     opacity: 0;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    z-index: -1;
 };
 .modal2{
     background-color: #fff;

@@ -12,6 +12,7 @@
     background-image: url("../img/services/service-1.jpg");
     background-size: cover;
 }
+
 .img2Sect2{
     width: 31%;
     height: 25vh;
@@ -29,6 +30,13 @@
     justify-content: center;
     background-image: url("../img/services/slider-3.jpg");
     background-size: cover;
+}
+
+.card-img{
+    transition: all 1s ease;
+}
+.card-img:hover{
+    transform:scale(1.1);
 }
 .p1Sect2{
     font-family: 'Poppins', sans-serif;
