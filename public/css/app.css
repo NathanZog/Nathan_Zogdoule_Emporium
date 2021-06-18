@@ -17201,7 +17201,7 @@ header.scroll {
   flex-direction: column;
   align-items: center;
   margin-top: 5%;
-  z-index: -1;
+  z-index: 2;
 }
 
 .divRangee {
@@ -17216,6 +17216,56 @@ header.scroll {
 
 .card {
   border: none;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card:hover {
+  z-index: 1;
+  transform: scale(1.1);
+}
+
+.conteneurHover {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 35px;
+  z-index: 6;
+  bottom: 26%;
+  opacity: 0;
+  transition: 1s;
+}
+
+.conteneurHover:hover {
+  opacity: 1;
+}
+
+.viewDetails {
+  height: 100%;
+  width: 50%;
+  background-color: #28284d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+}
+.viewDetails p {
+  margin-top: 12px;
+}
+
+.addToCard {
+  height: 100%;
+  width: 50%;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+}
+.addToCard p {
+  margin-top: 12px;
 }
 
 .carta-body {
@@ -17401,7 +17451,8 @@ header.scroll {
   border-radius: 50%;
   height: 20px;
   width: 20px;
-  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
   margin-bottom: 2%;
 }
 
@@ -17473,6 +17524,7 @@ header.scroll {
 }
 
 .btnSect6 {
+  margin-top: 10px;
   margin-bottom: 30px;
   color: white;
   background-color: black;
