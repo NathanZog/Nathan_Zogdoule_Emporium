@@ -34,14 +34,16 @@
         height: 20px;
         width: 20px;
         margin: 2%;
+        margin-bottom: 2%;
     };
 
 };
 
+
 #sec{
 
     .div-image{
-        min-width: 260px;
+        min-width: 330px;
         // height: 220px;
         // position: relative;
         left:0;
@@ -58,14 +60,14 @@
     width: 260px;
 }
 .txtCarousel{
-    width: 260px;
+    width: 330px;
     font-size: 15px;
     color:black;
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
 }
 .txtCarousel2{
-    width: 260px;
+    width: 330px;
     font-size: 15px;
     color: rgba(223,67,64,255);
     font-family: 'Poppins', sans-serif;
