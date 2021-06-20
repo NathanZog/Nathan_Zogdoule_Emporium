@@ -138,45 +138,5 @@ btn0.addEventListener("click", ()=>{
 });
 
 
-let card = Array.from(document.querySelectorAll(".card"));
-console.log(card);
 
-let hover = Array.from(document.querySelectorAll(".conteneurHover"));
-console.log(hover);
-
-
-
-
-
-
-
-// card.forEach(element => {
-//     element.addEventListener("mouseover",()=>{
-//         hover.forEach(element => {
-//             element.style.opacity = "1";
-//         });
-//     })
-// });
-
-// card.forEach(element => {
-//     element.addEventListener("mouseout",()=>{
-//         hover.forEach(element => {
-//             element.style.opacity = "0";
-//         });
-//     })
-// });
-
-
-
-
-// let card1 = document.querySelector(".card");
-// let hover1 = document.querySelector(".conteneurHover");
-
-// card1.addEventListener("mouseover", ()=>{
-//     hover1.style.opacity = "1";
-// })
-
-// card1.addEventListener("mouseout", ()=>{
-//     hover1.style.opacity = "0";
-// })
 
